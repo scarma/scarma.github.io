@@ -1,0 +1,13 @@
+<?xml version='1.0' ?>
+<chapter1>
+	<hint id='intro1'>Hello! Press the right mouse button for the instructions.</hint>
+	<hint id='intro2'>My name is Rob.</hint>
+	<hint id='intro3'>Type something in the box below and press enter.</hint>
+	<hint id='intro4'>Double click in the box to delete everything you have written.</hint>
+	<hint id='intro5'>You can select which language should I use to speak to you from the list on your right.</hint>
+	<hint id='intro6'>Or you can change the volume of my voice moving my nose.</hint>
+	<hint id='intro7'>You can also make me stop talkin by double clickin me.</hint>
+	<hint id='intro8'>Tell me what to repeat by recording your voice with the Rec button.</hint>
+	<hint id='intro9'>If you want you can make me move using your keyboard arrows.</hint>
+	<hint id='intro10'>Did you understand everything?</hint>
+</chapter1>
