@@ -44,7 +44,7 @@ app.controller("menuController", ['$scope', function($scope) {
 "The objective of the tutorial is to play this game."+linebreak+
 "The game is quite a short game and is a little idea made concrete."+linebreak+
 "Game made in less than 10 hours from scratch using Construct 2, Audacity and Photofiltre."+linebreak+
-"Ending music generated with This Exquisite Music Engine."+linebreak+
+"Ending music generated with This Exquisite Music Engine."+linebreak+linebreak+
 	  "HINT: Words are meaningful."+linebreak,
 	  img: "thetutorialtoplaythisgame.gif"
   },{
