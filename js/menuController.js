@@ -14,7 +14,7 @@ app.controller("menuController", ['$scope', function($scope) {
 "You can play it using any browser with HTML5 support (Chrome recommended)."+linebreak+
 "Now with online leaderboard!"+linebreak+
 "Choose your username and password and when you die your score is automatically submitted online!"+linebreak+
-"<b>In-Game Controls</b>"+linebreak+
+"In-Game Controls"+linebreak+
 "A / rotate left = Move left"+linebreak+
 "D / rotate right = Move right"+linebreak+
 "W / slide up = Jump"+linebreak+
