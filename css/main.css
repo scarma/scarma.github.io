@@ -27,7 +27,7 @@
   border: none;
 }
 
-.candy li a {
+.candy li {
   text-decoration: none;
   color: #f6f6f6;
   display: block;
