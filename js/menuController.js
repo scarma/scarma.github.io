@@ -35,7 +35,13 @@ app.controller("menuController", ['$scope', function($scope) {
   },{
     label: "Chat & Shoot",
     link: "Chat & Shoot",
-    desc : "A game about chatting and shooting laser beams",
+    desc : "A simple online multiplayer game."+linebreak+
+	  "Chat with your friends while shooting to evil Monsters."+linebreak+
+	  "Have fun in endless matches with a forever looping amazing soundtrack."+linebreak+linebreak+
+	  "In-Game Controls"+linebreak+
+	  "Click: Shoot."+linebreak+
+	  "WASD or Arrows: Move"+linebreak
+	  ,
 	img : "chat&shoot.png"
   },{
     label: "The Tutorial To Play This Game",
