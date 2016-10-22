@@ -7,11 +7,11 @@ app.controller("menuController", ['$scope', function($scope) {
   }, {
     label: "Star In Black",
     link: "Star In Black",
-    desc : "A game about stars"
+    desc : "starInBlack"
   },{
     label: "Rob - The Talking Robot",
     link: "Rob",
-    desc : "A game about a talking robot"
+    desc : "rob"
   },{
     label: "Chat & Shoot",
     link: "Chat & Shoot",
