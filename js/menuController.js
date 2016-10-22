@@ -39,9 +39,8 @@ app.controller("menuController", ['$scope', function($scope) {
 " - Repeat what you say"+linebreak+
 " - Move along the screen"+linebreak+
 " - Change colour"+linebreak+
-	  " - Speak louder"+linebreak+
-	  " - Change sex"
-	  ,
+	  " - Change sex"+linebreak+
+	  " - Speak louder" ,
 	img : "rob.png"
   },{
     label: "Chat & Shoot",
