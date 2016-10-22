@@ -4,7 +4,23 @@ app.controller("menuController", ['$scope', function($scope) {
   $scope.items = [{
     label: "Warp bird",
     link: "Warp bird",
-    desc : "A game about birds",
+    desc : "A Bird Can Destroy"+linebreak+
+"You are a cute little bird who can't fly. But you can collect bombs and hammers."+linebreak+
+	  "Enter The Warp Zone!"+linebreak+
+"The Warp Zone is useful for rest or trade with merchants."+linebreak+
+"Infinite randomly generated levels!"+linebreak+
+"Levels become more and more difficult. How far can you go without dying?"+linebreak+
+"Play directly from your browser from any device!"+linebreak+
+"You can play it using any browser with HTML5 support (Chrome recommended)."+linebreak+
+"Now with online leaderboard!"+linebreak+
+"Choose your username and password and when you die your score is automatically submitted online!"+linebreak+
+"<b>In-Game Controls</b>"+linebreak+
+"A / rotate left = Move left"+linebreak+
+"D / rotate right = Move right"+linebreak+
+"W / slide up = Jump"+linebreak+
+"ESC = Restart level"+linebreak+
+"Click / tap on a brick = Brick smash"+linebreak+
+"Double click / tap = Drop a bomb",
 	img : "WarpBirdGif.gif"
   }, {
     label: "Star In Black",
@@ -28,7 +44,8 @@ app.controller("menuController", ['$scope', function($scope) {
 "The objective of the tutorial is to play this game."+linebreak+
 "The game is quite a short game and is a little idea made concrete."+linebreak+
 "Game made in less than 10 hours from scratch using Construct 2, Audacity and Photofiltre."+linebreak+
-"Ending music generated with This Exquisite Music Engine. HINT: Words are meaningful."+linebreak,
+"Ending music generated with This Exquisite Music Engine."+linebreak+
+	  "HINT: Words are meaningful."+linebreak,
 	  img: "thetutorialtoplaythisgame.gif"
   },{
     label: "Webcam Effects",
