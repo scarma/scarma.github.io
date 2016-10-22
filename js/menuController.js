@@ -4,22 +4,22 @@ app.controller("menuController", ['$scope', function($scope) {
     label: "Warp bird",
     link: "Warp bird",
     desc : "A game about birds",
-	img : "warpbird"
+	img : "WarpBirdGif.gif"
   }, {
     label: "Star In Black",
     link: "Star In Black",
     desc : "A game about stars",
-	img : "starinblack"
+	img : "starinblack.png"
   },{
     label: "Rob - The Talking Robot",
     link: "Rob",
     desc : "rob",
-	img : "rob"
+	img : "rob.png"
   },{
     label: "Chat & Shoot",
     link: "Chat & Shoot",
     desc : "A game about chatting and shooting laser beams",
-	img : "chat"
+	img : "chat&shoot.png"
   },{
     label: "The Tutorial To Play This Game",
     link: "The Tutorial To Play This Game",
@@ -27,12 +27,13 @@ app.controller("menuController", ['$scope', function($scope) {
 "The objective of the tutorial is to play this game."+"<br>"+
 "The game is quite a short game and is a little idea made concrete."+"<br>"+
 "Game made in less than 10 hours from scratch using Construct 2, Audacity and Photofiltre."+"<br>"+
-"Ending music generated with This Exquisite Music Engine. HINT: Words are meaningful."+"<br>"
+"Ending music generated with This Exquisite Music Engine. HINT: Words are meaningful."+"<br>",
+	  img: "thetutorialtoplaythisgame.gif"
   },{
     label: "Webcam Effects",
     link: "Webcam Effects",
     desc : "A game about using a webcam",
-	img : "webcam"
+	img : "webcameffects.png"
   }
   
   ];
