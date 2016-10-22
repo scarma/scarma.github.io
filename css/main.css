@@ -27,7 +27,7 @@
   border: none;
 }
 
-.candy li a {
+.candy li {
   text-decoration: none;
   color: #f6f6f6;
   display: block;
@@ -40,11 +40,18 @@
   transition: font-size 0.5s ease, color 1s ease, background-color 1s ease;
 }
 
-.candy li a:hover {
+.candy li:hover a {
   font-size: 30px;
   color: #000;
   background: #f6f6f6;
 }
+
+.candy li:hover div {
+ font-size: 20px;
+  color: #000;
+  background: #f6f6f6;
+}
+
 
 
 .pic {
