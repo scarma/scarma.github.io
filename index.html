@@ -16,7 +16,7 @@
 			<ul>
 				<li ng-repeat="item in items" ng-mouseover="hover = true" ng-mouseleave="hover = false">
 					<a ng-href="./{{item.link}}/index.html">{{item.label}}</a>
-					<div ng-show="hover" class="candy" ng-include src="html/{{item.desc}}.html">
+					<div ng-show="hover" class="candy" ng-include ng-src="html/{{item.desc}}.html">
 						<p>{{item.desc}}</p>
 					</div>
 				</li>
