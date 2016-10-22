@@ -17,8 +17,8 @@
 				<li ng-repeat="item in items" ng-mouseover="hover = true" ng-mouseleave="hover = false">
 					<a ng-href="./{{item.link}}/index.html">{{item.label}}</a>
 					<div ng-show="hover" class="candy">
-						<p class="page"><img ng-src="img/{{item.img}}.png" class="pic"/>
-						{{item.desc}}</p>
+						<p class="page">
+						{{item.desc}}<img ng-src="img/{{item.img}}.png" class="pic"/></p>
 					</div>
 				</li>
 			</ul>
