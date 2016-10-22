@@ -45,3 +45,8 @@
   color: #000;
   background: #f6f6f6;
 }
+
+.pic img {
+ float : right;
+ margin: 10px;
+}
