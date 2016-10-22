@@ -29,6 +29,11 @@ app.controller("menuController", ['$scope', function($scope) {
     link: "Webcam Effects",
     desc : "A game about using a webcam"
   }
+  ,{
+    label: "Countdown Timer",
+    link: "Countdown Timer",
+    desc : "A game about using a timer and playing songs at the same time"
+  }
   
   ];
 }]);
