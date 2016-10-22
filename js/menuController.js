@@ -1,5 +1,6 @@
 var app = angular.module("ScarmaGames", []);
 app.controller("menuController", ['$scope', function($scope) {
+	var linebreak="\n"
   $scope.items = [{
     label: "Warp bird",
     link: "Warp bird",
@@ -23,11 +24,11 @@ app.controller("menuController", ['$scope', function($scope) {
   },{
     label: "The Tutorial To Play This Game",
     link: "The Tutorial To Play This Game",
-    desc : "What happens if the tutorial becomes the game?"+"<br>"+
-"The objective of the tutorial is to play this game."+"<br>"+
-"The game is quite a short game and is a little idea made concrete."+"<br>"+
-"Game made in less than 10 hours from scratch using Construct 2, Audacity and Photofiltre."+"<br>"+
-"Ending music generated with This Exquisite Music Engine. HINT: Words are meaningful."+"<br>",
+    desc : "What happens if the tutorial becomes the game?"+linebreak+
+"The objective of the tutorial is to play this game."+linebreak+
+"The game is quite a short game and is a little idea made concrete."+linebreak+
+"Game made in less than 10 hours from scratch using Construct 2, Audacity and Photofiltre."+linebreak+
+"Ending music generated with This Exquisite Music Engine. HINT: Words are meaningful."+linebreak,
 	  img: "thetutorialtoplaythisgame.gif"
   },{
     label: "Webcam Effects",
