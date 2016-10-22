@@ -66,7 +66,7 @@ app.controller("menuController", ['$scope', function($scope) {
   },{
     label: "Webcam Effects",
     link: "Webcam Effects",
-    desc : "A game about using a webcam",
+    desc : "Add many effects to your webcam and take picture of your beautiful face.",
 	img : "webcameffects.png"
   }
   
