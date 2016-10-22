@@ -40,7 +40,7 @@
   transition: font-size 0.5s ease, color 1s ease, background-color 1s ease;
 }
 
-.candy li div pre {
+.candy li div {
   color: #f6f6f6;
   display: block;
   width: 100%;
@@ -58,10 +58,13 @@
   background: #f6f6f6;
 }
 
-.candy li:hover div pre {
-  font-size: 20px;
+.candy li:hover div {
   color: #000;
   background: #f6f6f6;
+}
+
+.candy pre {
+  font-size: 20px;
 }
 
 
