@@ -55,7 +55,7 @@
 }
 
 .candy li:hover a {
-  margin: 10px;
+  margin-left: 10px;
   font-size: 30px;
   color: #000;
   background: #f6f6f6;
