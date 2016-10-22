@@ -72,7 +72,7 @@ app.controller("menuController", ['$scope', function($scope) {
     label: "Countdown Timer",
     link: "Countdown Timer",
     desc : "If you love time and music this is the app for you."+linebreak+
-	  "Useful for new year countdowns."
+	  "Useful for new year countdowns."+linebreak+linebreak+linebreak+linebreak+linebreak
 	  ,
 	img : "countdowntimer.png"
   }
