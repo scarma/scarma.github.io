@@ -3,19 +3,23 @@ app.controller("menuController", ['$scope', function($scope) {
   $scope.items = [{
     label: "Warp bird",
     link: "Warp bird",
-    desc : "A game about birds"
+    desc : "A game about birds",
+	img : "warpbird"
   }, {
     label: "Star In Black",
     link: "Star In Black",
-    desc : "starInBlack"
+    desc : "A game about stars",
+	img : "starinblack"
   },{
     label: "Rob - The Talking Robot",
     link: "Rob",
-    desc : "rob"
+    desc : "rob",
+	img : "rob"
   },{
     label: "Chat & Shoot",
     link: "Chat & Shoot",
-    desc : "A game about chatting and shooting laser beams"
+    desc : "A game about chatting and shooting laser beams",
+	img : "chat"
   },{
     label: "The Tutorial To Play This Game",
     link: "The Tutorial To Play This Game",
@@ -27,13 +31,10 @@ app.controller("menuController", ['$scope', function($scope) {
   },{
     label: "Webcam Effects",
     link: "Webcam Effects",
-    desc : "A game about using a webcam"
-  }
-  ,{
-    label: "Countdown Timer",
-    link: "Countdown Timer",
-    desc : "A game about using a timer and playing songs at the same time"
+    desc : "A game about using a webcam",
+	img : "webcam"
   }
   
   ];
 }]);
+
