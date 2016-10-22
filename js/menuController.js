@@ -2,8 +2,8 @@ var app = angular.module("ScarmaGames", []);
 app.controller("menuController", ['$scope', function($scope) {
 	var linebreak="\n"
   $scope.items = [{
-    label: "Warp bird",
-    link: "Warp bird",
+    label: "Warp Bird",
+    link: "Warp Bird",
     desc : "A Bird Can Destroy"+linebreak+
 "You are a cute little bird who can't fly. But you can collect bombs and hammers."+linebreak+
 	  "Enter The Warp Zone!"+linebreak+
