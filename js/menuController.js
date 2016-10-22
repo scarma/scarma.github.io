@@ -25,7 +25,11 @@ app.controller("menuController", ['$scope', function($scope) {
   }, {
     label: "Star In Black",
     link: "Star In Black",
-    desc : "A game about stars",
+    desc : "2 stars controlled by one player."+linebreak+
+	 "20+ awesome levels."+linebreak+
+	 "2D Platformer."+linebreak+
+	 "2 hard to complete."
+	  ,
 	img : "starinblack.png"
   },{
     label: "Rob - The Talking Robot",
