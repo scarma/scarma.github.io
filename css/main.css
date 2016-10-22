@@ -27,7 +27,7 @@
   border: none;
 }
 
-.candy li {
+.candy li a {
   text-decoration: none;
   color: #f6f6f6;
   display: block;
@@ -40,15 +40,12 @@
   transition: font-size 0.5s ease, color 1s ease, background-color 1s ease;
 }
 
-.candy li:hover {
+.candy li a:hover {
+  font-size: 30px;
   color: #000;
   background: #f6f6f6;
 }
 
-.candy li:hover a {
-  font-size: 30px;
-  text-decoration: none;
-}
 
 .pic {
  float: right;
