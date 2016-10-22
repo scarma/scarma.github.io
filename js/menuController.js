@@ -34,7 +34,14 @@ app.controller("menuController", ['$scope', function($scope) {
   },{
     label: "Rob - The Talking Robot",
     link: "Rob",
-    desc : "rob",
+    desc : "Rob is a smart robot who can do different things such as:"+linebreak+
+	  " - Read a text in many languages (tts)"+linebreak+
+" - Repeat what you say"+linebreak+
+" - Move along the screen"+linebreak+
+" - Change colour"+linebreak+
+	  " - Speak louder"+linebreak+
+	  " - Change sex"
+	  ,
 	img : "rob.png"
   },{
     label: "Chat & Shoot",
