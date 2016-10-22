@@ -39,18 +39,17 @@
   -ms-transition: font-size 0.5s ease, color 1s ease, background-color 1s ease;
   transition: font-size 0.5s ease, color 1s ease, background-color 1s ease;
 }
-
-.candy li a:hover {
-  font-size: 30px;
+.hoverr {
+ font-size: 30px;
   color: #000;
   background: #f6f6f6;
 }
-
-.candy li div {
+/**.candy li a:hover {
   font-size: 30px;
   color: #000;
   background: #f6f6f6;
-}
+}*/
+
 
 .pic {
  float: right;
