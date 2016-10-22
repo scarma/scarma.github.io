@@ -64,6 +64,9 @@
   color: #000;
   background: #f6f6f6;
 }
+.page {
+ margin: 10px;
+}
 
 .pic {
  float: right;
