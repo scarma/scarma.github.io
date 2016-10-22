@@ -1,22 +1,26 @@
 
 <!DOCTYPE 5>
 <html ng-app="ScarmaGames" >
-  <head>
-    <title>Scarma</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <link rel="stylesheet" href="css/bootstrap.min.css"/>
-    <link rel="stylesheet" href="css/main.css"/>
-    <script src="js/bootstrap.min.js">         </script>
-    <script src="js/angular.min.js"> </script>
-	<script src="js/menuController.js"> </script>
-  </head>
-  <body>
-    <div class="candy container" ng-controller="menuController">
-      <h1>Scarma Games</h1>
-      <ul>
-        <li ng-repeat="item in items" ng-mouseover="hover = true" ng-mouseleave="hover = false"> <a ng-href="./{{item.link}}/index.html">{{item.label}}</a>
-    <div ng-show="hover"><p>{{item.desc}}</p></div></li>
-       </ul>
-    </div>
-  </body>
+	<head>
+		<title>Scarma</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		<link rel="stylesheet" href="css/bootstrap.min.css"/>
+		<link rel="stylesheet" href="css/main.css"/>
+		<script src="js/bootstrap.min.js">         </script>
+		<script src="js/angular.min.js"> </script>
+		<script src="js/menuController.js"> </script>
+	</head>
+	<body>
+		<div class="candy container" ng-controller="menuController">
+			<h1>Scarma Games</h1>
+			<ul>
+				<li ng-repeat="item in items" ng-mouseover="hover = true" ng-mouseleave="hover = false">
+					<a ng-href="./{{item.link}}/index.html">{{item.label}}</a>
+					<div ng-show="hover" class="candy" ng-include="html/{{item.desc}}.html">
+						
+					</div>
+				</li>
+			</ul>
+		</div>
+	</body>
 </html>
