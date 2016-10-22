@@ -15,9 +15,9 @@
 		<div class="candy container" ng-controller="menuController">
 			<h1>Scarma Games</h1>
 			<ul>
-				<li ng-repeat="item in items" ng-mouseover="hover = true" ng-mouseleave="hover = false">
+				<li class="candy" ng-repeat="item in items" ng-mouseover="hover = true" ng-mouseleave="hover = false">
 					<a ng-href="./{{item.link}}/index.html">{{item.label}}</a>
-					<div ng-show="hover" class="candy" ng-class="hover ? 'hover' : ''">
+					<div ng-show="hover">
 						<p class="page"><img ng-src="img/{{item.img}}.png" class="pic">
 						{{item.desc}}</p>
 					</div>
