@@ -45,8 +45,9 @@
   background: #f6f6f6;
 }
 
-.candy li a:hover {
+.candy li:hover a {
   font-size: 30px;
+  text-decoration: none;
 }
 
 .pic {
