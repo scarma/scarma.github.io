@@ -68,6 +68,13 @@ app.controller("menuController", ['$scope', function($scope) {
     link: "Webcam Effects",
     desc : "Add many effects to your webcam and take picture of your beautiful face.",
 	img : "webcameffects.png"
+  },{
+    label: "Countdown timer",
+    link: "Countdown timer",
+    desc : "If you love time and music this is the app for you."+linebreak+
+	  "Useful for new year countdowns."
+	  ,
+	img : "countdowntimer.png"
   }
   
   ];
