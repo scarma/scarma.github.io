@@ -3,11 +3,11 @@ app.config(function($locationProvider) {
 	$locationProvider.html5Mode(true);
  });
 
-app.controller("menuController", ['$scope','$window', function($scope, $window) {
+app.controller("menuController", ['$scope', function($scope) {
   
 	$scope.play=function(gameUrl){
-		$window.location.href( gameUrl+ '/index.html');
-		$window.location.reload();
+		window.location.href( gameUrl+ '/index.html');
+		window.location.reload();
 	//$location.path( gameUrl+ '/index.html');
   }
 var linebreak="\n";	
