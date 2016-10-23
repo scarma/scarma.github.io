@@ -13,7 +13,7 @@ app.controller("menuController", ['$scope', '$window',  function($scope,$window)
 var linebreak="\n";	
   $scope.items = [{
     label: "Warp Bird",
-    link: "WarpBird",
+    link: "Warp Bird",
     desc : "A Bird Can Destroy"+linebreak+
 "You are a cute little bird who can't fly. But you can collect bombs and hammers."+linebreak+
 	  "Enter The Warp Zone!"+linebreak+
