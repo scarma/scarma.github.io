@@ -1,10 +1,10 @@
 var app = angular.module("ScarmaGames", []);
 app.controller("menuController", ['$scope','$location', function($scope, $location) {
   
-	$scope.go=function(path){
-	$location.path( path );
+	$scope.play=function(gameUrl){
+	$location.path( './'+gameUrl+ '/index.html');
   }
-	var linebreak="\n";
+var linebreak="\n";	
   $scope.items = [{
     label: "Warp Bird",
     link: "Warp Bird",
