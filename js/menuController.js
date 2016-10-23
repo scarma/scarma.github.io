@@ -6,7 +6,8 @@ app.config(function($locationProvider) {
 app.controller("menuController", ['$scope','$location', function($scope, $location) {
   
 	$scope.play=function(gameUrl){
-	$location.path( gameUrl+ '/index.html');
+		$window.location.href( gameUrl+ '/index.html');
+	//$location.path( gameUrl+ '/index.html');
   }
 var linebreak="\n";	
   $scope.items = [{
