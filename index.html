@@ -16,9 +16,9 @@
 			<h1>Scarma Games</h1>
 			<ul>
 				<li class="candy" ng-repeat="item in items" ng-mouseover="hover = true" ng-mouseleave="hover = false">
-					<a ng-href="./{{item.link}}/index.html">{{item.label}}</a>
+					<a href="#">{{item.label}}</a><button ng-if="hover" ng-href="./{{item.link}}/index.html">Play</button>
 					<div ng-show="hover">
-						<p class="page"><button>Play</button><img ng-src="img/{{item.img}}" class="pic">{{item.desc}}</p>
+						<p class="page"><img ng-src="img/{{item.img}}" class="pic">{{item.desc}}</p>
 					</div>
 				</li>
 			</ul>
