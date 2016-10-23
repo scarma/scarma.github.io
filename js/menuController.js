@@ -1,4 +1,8 @@
 var app = angular.module("ScarmaGames", []);
+app.config(function($locationProvider) {
+	$locationProvider.html5Mode(true);
+ });
+
 app.controller("menuController", ['$scope','$location', function($scope, $location) {
   
 	$scope.play=function(gameUrl){
