@@ -2,7 +2,7 @@ var app = angular.module("ScarmaGames", []);
 app.controller("menuController", ['$scope','$location', function($scope, $location) {
   
 	$scope.play=function(gameUrl){
-	$location.path( './'+gameUrl+ '/index.html');
+	$location.path( gameUrl+ '/index.html');
   }
 var linebreak="\n";	
   $scope.items = [{
