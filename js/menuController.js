@@ -3,7 +3,7 @@ app.config(function($locationProvider) {
 	$locationProvider.html5Mode(true);
  });
 
-app.controller("menuController", ['$scope','$location', function($scope, $location) {
+app.controller("menuController", ['$scope','$window', function($scope, $window) {
   
 	$scope.play=function(gameUrl){
 		$window.location.href( gameUrl+ '/index.html');
