@@ -27,7 +27,7 @@
   border: none;
 }
 
-.candy li a {
+.candy li .title {
   text-decoration: none;
   color: #f6f6f6;
   display: block;
@@ -40,7 +40,7 @@
   transition: font-size 0.5s ease, color 1s ease, background-color 1s ease;
 }
 
-.candy li div {
+.candy li .desc {
   color: #f6f6f6;
   display: block;
   width: 100%;
@@ -53,14 +53,14 @@
   transition: font-size 0.5s ease, color 1s ease, background-color 1s ease;
 }
 
-.candy li:hover a {
+.candy li:hover .title {
   padding-left: 10px;
   font-size: 30px;
   color: #000;
   background: #f6f6f6;
 }
 
-.candy li:hover div {
+.candy li:hover .desc {
   color: #000;
   background: #f6f6f6;
   font-size: 14px;
