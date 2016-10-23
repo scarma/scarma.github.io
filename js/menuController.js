@@ -7,7 +7,7 @@ app.controller("menuController", ['$scope', '$window',  function($scope,$window)
   
 	$scope.play=function(gameUrl){
 		$window.location.href= gameUrl+ '/index.html';
-		$window.location.reload();
+		
 	//$location.path( gameUrl+ '/index.html');
   }
 var linebreak="\n";	
