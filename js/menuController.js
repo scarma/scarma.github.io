@@ -8,7 +8,7 @@ app.controller("menuController", ['$scope', '$window',  function($scope,$window)
 	$scope.play=function(gameUrl){
 		if (!/^(f|ht)tps?:\/\//i.test(gameUrl)) {
 		$window.location.href= gameUrl+ '/index.html';
-		
+		}
 	//$location.path( gameUrl+ '/index.html');
   }
 var linebreak="\n";	
